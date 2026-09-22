@@ -18,8 +18,8 @@ polygon using Google Earth Engine + Vertex AI (Gemini). Sourced from the
   API — do this at https://console.cloud.google.com/earth-engine/configuration?project=YOUR-PROJECT-ID).
 
 ⚠️ **Gotcha:** `GOOGLE_CLOUD_PROJECT` in `.env` needs the project **ID**
-(the short string, e.g. `gedi-vit`), not the numeric project number
-(e.g. `712257425884`). The numeric ID gets far enough to hit the Earth
+(the short string, e.g. `project`), not the numeric project number
+(e.g. `123456789`). The numeric ID gets far enough to hit the Earth
 Engine API, then fails with "Project not registered" because EE resolves
 that to the ID string internally. Use the ID string from the start.
 
